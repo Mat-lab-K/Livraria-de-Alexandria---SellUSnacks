@@ -1,0 +1,45 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: grey;
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: lightblue;
+    text-decoration: none;
+    padding:15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: darkgrey;
+}
+.navbar li{
+    float:left;
+}
+
+.pagination{
+    text-align: center;
+}
+.pagination a {
+    color: lightblue;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color : green;
+    font-weight:bold;
+}
+.pagination a:hover:not(.active){
+    background-color: lightcoral;
+    border: 5px;
+}
